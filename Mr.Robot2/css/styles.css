@@ -1,0 +1,183 @@
+/* Importing Mr.Robot Font */
+
+@font-face {
+font-family: test;
+src: url("robot.ttf") format('truetype');
+}
+
+
+/* Header */
+
+#header {
+  background-color: red;
+  text-align: center;
+  padding: 4% 14%;
+}
+
+.header-heading {
+  color: black;
+  font-family: test;
+  padding-top: 70px;
+  font-size: 100px;
+}
+
+.nav-items {
+  color: white;
+  font-family:Ubuntu;
+  font-size: 18px;
+}
+
+/* About Page */
+
+#about {
+  background-color: #3B4B4A;
+  color: white;
+  padding: 15% 14%;
+}
+
+.about-text {
+  color: #CCCCCC;
+}
+
+.about-image {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+
+}
+
+
+/* ratings */
+
+#ratings {
+  background-color: #CCCCCC;
+  padding: 20% 14%;
+  text-align: center;
+}
+
+/* Cast Page */
+
+#cast {
+  background-color: #192428;
+  text-align: center;
+  padding: 7% 14%;
+  color: white;
+}
+
+.cast-heading {
+  font-family: test;
+  color: #CCCCCC;
+  font-size: 100px;
+  font-stretch: expanded;
+}
+
+.cast-card-img {
+  height: 400px;
+}
+
+.cast-card-title  {
+  margin-top: 30px;
+}
+
+.cast-card-text {
+  color: #CCCCCC;
+  font-style: italic;
+}
+
+.cast-box-hover {
+  filter: grayscale(1);
+}
+
+.cast-box-hover:hover{
+  filter: none;
+}
+
+/*  Seasons */
+
+#seasons {
+  background-color: #4A5D6C;
+  padding: 7% 14%;
+  text-align: center;
+}
+
+.seasons-heading {
+  font-family: test;
+  font-size: 100px;
+}
+
+#seasons .card{
+    box-shadow:0 4px 4px 4px black;
+    filter: grayscale(1);
+}
+
+#seasons .card:hover {
+  filter: none;
+}
+
+.season-title {
+  font-family: test;
+  color: #4A5D6C;
+  font-size: 40px;
+}
+
+
+/* CTA */
+
+#cta {
+  background-color: #192530;
+  padding: 7% 14%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: test;
+  color: #4A5D6C;
+  font-size: 50px;
+}
+
+.watch-icon {
+  padding: 15px;
+  padding-bottom: 20px;
+}
+
+.watch-icon:hover {
+  filter: invert();
+}
+
+/* Media Query Breakpoints */
+/* Changing sizes according to size of the viewport */
+@media only screen and (max-width: 600px) {
+  .about-image {
+    width: 200px;
+    height: 250px;
+  }
+
+  .header-image {
+    width: 380px;
+    height: 200px;
+    padding: 0px;
+  }
+
+  .seasons-heading {
+    font-family: test;
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-image {
+    width: 200px;
+    height: 250px;
+  }
+
+  .header-image {
+    width: 380px;
+    height: 200px;
+    padding: 0px;
+  }
+
+  .seasons-heading {
+    font-family: test;
+    font-size: 70px;
+  }
+}
