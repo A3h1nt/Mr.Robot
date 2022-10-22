@@ -16,3 +16,4 @@ Levelling up a little, learned bootstrap and implemented the following concepts
 - Carousel
 - Cards
 - Media Query Breakpoints
+- Responsiveness
